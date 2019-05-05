@@ -1,0 +1,28 @@
+{
+  "name": "execut/yii2-loading-overlay",
+  "description": "Yii2 loading overlay widget",
+  "keywords": ["yii2 widget", "yii2 loading overlay"],
+  "homepage": "https://github.com/execut/yii2-loading-overlay",
+  "type": "library",
+  "license": "Apache-2.0",
+  "support": {
+    "issues": "https://github.com/execut/yii2-loading-overlay/issues?state=open",
+    "wiki": "https://github.com/execut/yii2-loading-overlay/wiki",
+    "source": "https://github.com/execut/yii2-loading-overlay"
+  },
+  "authors": [
+    {
+      "name": "eXeCUT"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "@dev",
+    "bower-asset/jquery-loading-overlay": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "execut\\loadingOverlay\\": ""
+    }
+  }
+}
