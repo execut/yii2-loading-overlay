@@ -2,6 +2,8 @@
 namespace execut\loadingOverlay;
 
 use yii\web\AssetBundle;
+use yii\web\JqueryAsset;
+
 class LoadingOverlayBowerAsset extends AssetBundle
 {
     public $sourcePath = '@bower/jquery-loading-overlay/dist';
@@ -10,6 +12,6 @@ class LoadingOverlayBowerAsset extends AssetBundle
     ];
 
     public $depends = [
-        'yii\web\JqueryAsset',
+        JqueryAsset::class,
     ];
 }
