@@ -18,8 +18,7 @@
   "minimum-stability": "stable",
   "require": {
     "yiisoft/yii2": "@dev",
-    "execut/yii2-base": "@dev",
-    "bower-asset/jquery-loading-overlay": "@dev"
+    "execut/yii2-base": "@dev"
   },
   "autoload": {
     "psr-4": {

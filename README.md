@@ -1,7 +1,5 @@
 # Yii2 loading overlay widget
-Yii2 wrapper for jquery loading overlay javascript widget from jgerigmeyer
-
-[Widget page](https://github.com/jgerigmeyer/jquery-loading-overlay)
+Yii2 loading overlay javascript widget
 
 ## Installation
 
@@ -23,8 +21,6 @@ to the ```require``` section of your `composer.json` file.
 
 ## Usage
 For usage javascript widget inside you javascript code simple register ```\execut\loadingOverlay\LoadingOverlayAsset``` on you page.
-
-For javascript usage please, refer to [widget documentation page](https://github.com/jgerigmeyer/jquery-loading-overlay)
 
 ## Example
 
