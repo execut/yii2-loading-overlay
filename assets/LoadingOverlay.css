@@ -12,7 +12,10 @@
   left: 0;
   right: 0;
   z-index: 10;
-  background: rgba(255,255,255,0.4);
+  background: rgba(255, 255, 255, 0.4);
+}
+.loading-overlay .loading-text {
+  font-weight: bold;
 }
 .loading-spinner {
   position: absolute;
