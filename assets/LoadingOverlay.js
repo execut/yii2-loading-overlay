@@ -68,11 +68,7 @@ $.widget("execut.loadingOverlay", {
         t._icon.css('top', offsetTop + 'px');
     },
     remove: function () {
-        var t = this,
-            opts = t.options,
-            el = t.element;
-        $(window).unbind('scroll', t._centralizeHandler);
-        $(window).unbind('resize', t._centralizeHandler);
+        var t = this;
 
         t.destroy();
     },
@@ -80,6 +76,9 @@ $.widget("execut.loadingOverlay", {
         var t = this,
             opts = t.options,
             el = t.element;
+        $(window).unbind('scroll', t._centralizeHandler);
+        $(window).unbind('resize', t._centralizeHandler);
+
         el.find('.' + opts.overlayClass).detach();
         if (el.hasClass(opts.loadingClass)) {
             el.removeClass(opts.loadingClass);
