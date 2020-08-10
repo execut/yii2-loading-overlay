@@ -3,7 +3,7 @@
   "description": "Yii2 loading overlay widget",
   "keywords": ["yii2 widget", "yii2 loading overlay"],
   "homepage": "https://github.com/execut/yii2-loading-overlay",
-  "type": "library",
+  "type": "yii2-extension",
   "license": "Apache-2.0",
   "support": {
     "issues": "https://github.com/execut/yii2-loading-overlay/issues?state=open",
